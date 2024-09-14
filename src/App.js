@@ -181,7 +181,7 @@ function App() {
                     onChange={e => handleIngredient(e, i)} />
                 ))
               }
-              <button type="button" onClick={handleIngredientCount}>Add ingredient</button>
+              <button type="button" onClick={handleIngredientCount}> Add ingredient </button>
             </div>
 
             <div className="form-group">
